@@ -1,5 +1,5 @@
 # mingfwq
-实现了基本的服务器功能。自定义tcp_server（包含日志模块，配置模块，线程模块，协程模块，协程调度模块，io协程调度模块，hook模块，socket模块，bytearray序列化，http模块，TcpServer模块，Stream模块，http模块，Serlvet模块)
+实现了服务器框架的基本功能。自定义tcp_server（包含日志模块，配置模块，线程模块，协程模块，协程调度模块，io协程调度模块，hook模块，socket模块，bytearray序列化，http模块，TcpServer模块，Stream模块，http模块，Serlvet模块)
 
 # 参考
 视频：https://www.bilibili.com/video/av53602631/?from=www.sylar.top  
