@@ -7,3 +7,4 @@ cd build
 cmake ..
 sudo make
 可执行文件放于bin中
+s
