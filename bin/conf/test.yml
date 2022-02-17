@@ -1,0 +1,76 @@
+logs:
+    - name: root
+      level: info
+      appenders:
+          - type: FileLogAppender
+            file: log.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: debug
+      appenders:
+          - type: FileLogAppender
+            path: log.txt
+          - type: StdoutLogAppender
+
+system:
+      port: 9900
+      value: 15
+      ##int_vec: [10,20]   ##两种格式都支持
+      int_vec:
+        - 10
+        - 30
+      int_list: [20, 40, 50]
+      int_set: [30, 20, 60 , 20]
+      int_uset: [30, 20, 60 , 20]
+      str_int_map:
+          k: 30
+          k2: 10
+          k3: 20
+          k4: 40
+      str_int_umap:
+          k: 300
+          k2: 100
+          k3: 200
+          k4: 400
+
+class:
+    person:
+        name: mingyue
+        age: 21
+        sex: true
+    map:
+        mingyue01:
+            name: mingyue01
+            age: 18
+            sex: false
+        mingyue02: 
+            name: mingyue02
+            age: 40
+            sex: true
+    vec_map: 
+        k1:
+          - name: m1
+            age: 33
+            sex: true
+          - name: m2
+            age: 44
+            sex: false
+        k2:
+          - name: m12
+            age: 33
+            sex: true
+          - name: m22
+            age: 44
+            sex: false
+map:
+  student:
+    mingyue01:
+        name: mingyue01
+        age: 18
+        height: 170
+        sex: false
+    mingyue02:
+        name: mingyue02
+        age: 40
+        height: 2000
+        sex: true
